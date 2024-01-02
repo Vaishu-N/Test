@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(76, 76, 122);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    color:brown;
+    background-color: aliceblue;
+}
+.Tox{
+    color:blue;
+}
+#reset{
+    height: 50px;
+    width:100px;
+    background-color: rgb(189, 221, 8);
+    color: black;
+    border-radius: 1rem;
+}
+#new {
+    height: 50px;
+    width:100px;
+    background-color: rgb(189, 221, 8);
+    color: black;
+    border-radius: 1rem;
+}
+#msg{
+    color:aliceblue;
+    font-size:8vmin;
+}
+.msg-container{
+    height:70vmin;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
